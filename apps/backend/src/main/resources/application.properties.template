@@ -1,0 +1,16 @@
+spring.application.name=Currency Converter
+# Server port
+server.port=8080
+
+# External exchange rate API URL (adjust this URL to the swop.cx free tier endpoint)
+management.endpoints.web.exposure.include=*
+
+# Use Redis as the caching provider
+spring.cache.type=redis
+
+# Redis connection properties (adjust host/port as needed)
+spring.redis.host=localhost
+spring.redis.port=6379
+
+currency.api.url=https://swop.cx/rest/rates
+currency.api.key=key

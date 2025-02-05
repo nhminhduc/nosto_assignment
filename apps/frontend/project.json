@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "options": {
+        "root": "apps/frontend",
+        "outputPath": "dist/apps/frontend"
+      }
+    }
+  }
+}
