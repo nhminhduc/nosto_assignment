@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start:dev": "nx dev frontend",
     "build:frontend": "nx build frontend"
   },
   "private": true,

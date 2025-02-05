@@ -24,7 +24,7 @@ public class CurrencyConversionService {
 
     private static final Logger logger = LoggerFactory.getLogger(CurrencyConversionService.class);
 
-    @Value("${exchange.api.url}")
+    @Value("${currency.api.url}")
     private String exchangeApiUrl;
     @Value("${currency.api.key}")
     private String apiKey;

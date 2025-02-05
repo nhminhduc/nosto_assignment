@@ -12,14 +12,20 @@ This project is a currency conversion application that provides a REST API for r
    - Fill in the API key for the exchange rate service.
    - Rename the file to `application.properties`.
 
-2. **Start the application:**
+2. **Install dependencies:**
 
 ```
-docker-compose up --build
-
+yarn install
 ```
 
-3. **Access the application:**
+3. **Start the application:**
+
+```
+docker-compose up --build -d
+yarn start:dev
+```
+
+4. **Access the application:**
 
 - Open your web browser and navigate to `http://localhost:3000`
 
