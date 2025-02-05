@@ -61,14 +61,6 @@ The application uses caching to improve performance and reduce API calls:
 - Exchange rates are cached with the key 'EUR'.
 - The list of all currencies is cached to reduce computation time.
 
-## Development
-
-This project uses Nx for development. Here are some useful commands:
-
-- Run development server: `npx nx dev nosto_assignment`
-- Build for production: `npx nx build nosto_assignment`
-- Show project details: `npx nx show project nosto_assignment`
-
 ## Additional Information
 
 For more details about the Nx workspace setup and its capabilities, refer to the [Nx documentation](https://nx.dev/nx-api/next).
